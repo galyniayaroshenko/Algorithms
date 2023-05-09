@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  </head>
+  <body>
+    <form name="form" onsubmit="run(this); return false">
+      <label for="dimension">Введіть рoзмір шахматної дошки:</label>
+      <input
+        id="dimension"
+        max="15"
+        min="4"
+        name="dimension"
+        required
+        type="number"
+      />
+      <button>Run with Web Workers</button>
+    </form>
+  </body>
+</html>
